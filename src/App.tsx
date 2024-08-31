@@ -1,13 +1,21 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './Components/Login';
+
+
+
+
 
 
 function App() {
   
 
   return (
-    <>
-      <h1>Comenzamos con Innova</h1>
-    </>
+    
+    <Login/>
+    
+    
   )
 }
+
 
 export default App

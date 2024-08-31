@@ -1,1 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
+:root {
+  --primario: #1a4e7b;
+  --secundario: #2269a6;
+  --tercero: #2984d2;
+  --azulbajito: #509dde;
+  --azulmasbajito:#79B5E7;
+  --gris: #D1D1D4;
+  --blanco: #ffffff;
+  --negro: #0000;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+html {
+	/* 1rem = 10px */
+	font-size: 62.5%;
+}
+body {
+	background-color: var(--blanco);
+	font-size: 1.6rem;
+}
+.full-height {
+  height: 100vh; /* Ocupa el 100% del viewport height */
+}
+a{
+  text-decoration: none;
+}
+.titulo{
+  font-size: 40px;
+}
+/* .login-card{
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .1);
+  border-radius: 8px;
+  border: none;
+}
+.input__username{
+  transition: all 1s;
+}
+.input__username:hover{
+  border: 1px solid #509dde;
+  transform: scale(1.01);
+  
+} */
